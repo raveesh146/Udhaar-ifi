@@ -1,8 +1,10 @@
 # Transform Your NFTs into Collateral with UDHAARifi, built on APTOS🚀
 
-Unlock the power of your NFTs by turning them into collateral and accessing cryptocurrency loans effortlessly. No need to sell—lend your NFTs and gain instant liquidity within minutes!
+## Unlock the power of your NFTs by turning them into collateral and accessing cryptocurrency loans effortlessly. No need to sell—lend your NFTs and gain instant liquidity within minutes!
 
+### Demo link ->  https://www.youtube.com/watch?v=mDDjhZH5Cls
 ---
+
 
 ## 📦 Contract Development Workflow
 
@@ -48,6 +50,7 @@ npm run dee
 ```
 
 ### Now you can interact with your smart contract and start lending NFTs as collateral! 🚀
+<img src="flow.png" alt="Alt Text" width="800" height="500">
 
 
 
