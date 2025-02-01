@@ -1,0 +1,1070 @@
+/* ------------------------------------------------------- */
+/* Buttons */
+/* ------------------------------------------------------- */
+button,
+.submit-btn {
+    letter-spacing: 0.8px !important;
+}
+
+.connect-btn {
+    padding: 12px 20px;
+    background: var(--sec-1);
+    color: var(--btn-text-light);
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.connect-btn:hover {
+    background: var(--sec-2);
+    color: var(--btn-text-light);
+}
+
+.wl-item {
+    padding: 16px 24px;
+    border: 0px;
+    border-radius: unset !important;
+    background: transparent;
+    color: var(--light);
+    border-bottom: 1px solid var(--light-20) !important;
+    transition: all 0.7s ease;
+}
+
+.wl-item.active:hover {
+    background-color: var(--bglight-20) !important;
+}
+
+.wl-item.disabled {
+    opacity: 0.5;
+}
+
+.coll-btn {
+    position: relative;
+}
+
+.action-btn {
+    background: var(--sec-1);
+    color: var(--btn-text-light);
+    padding: 10px 18px;
+    border: unset;
+    font-size: 14px;
+    line-height: 14px;
+    transition: all 0.5s ease;
+}
+
+.action-btn:hover {
+    background: var(--sec-2);
+    color: var(--btn-text-light);
+}
+
+.submit-btn {
+    background-color: var(--sec-1) !important;
+    color: var(--btn-text-light) !important;
+    width: 30%;
+    margin-left: auto;
+    padding: 16px 24px !important;
+    border: unset !important;
+    text-transform: uppercase;
+    font-weight: 400 !important;
+    transition: all 0.5s ease;
+}
+
+.submit-btn:hover {
+    background: var(--sec-2) !important;
+}
+
+.grid-view .list-btn {
+    padding: 12px 24px;
+    background: var(--sec-1);
+    color: var(--btn-text-light);
+    transition: all 0.5s ease;
+    border-radius: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.grid-view .list-btn:hover {
+    background: var(--sec-2);
+}
+
+.action-btn.ended {
+    opacity: 0.5;
+}
+
+/* banner btn */
+.banner-btn {
+    background-color: var(--sec-2);
+    border: unset;
+    color: var(--btn-text-light);
+    font-size: 16px;
+    line-height: 16px;
+    padding: 16px 24px !important;
+    position: relative;
+    touch-action: manipulation;
+    transition: all 0.5s ease;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.banner-btn:after {
+    background-color: var(--sec-1);
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    transform: translate(8px, 8px);
+    transition: transform .3s ease-out;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.lend-btn {
+    background: var(--primary-3);
+}
+.lend-btn:after{
+    background: #3E065F;
+}
+
+.banner-btn:hover:after {
+    transform: translate(0, 0);
+}
+
+.banner-btn:active,
+.banner-btn:hover {
+    /* background-color: var(--sec-1); */
+    background: var(--primary-1);
+}
+.lend-btn:hover{
+    background: var(--primary-1);
+}
+
+/* banner btn-end */
+
+
+/* ------------------------------------------------------- */
+/* Modals */
+/* ------------------------------------------------------- */
+.modal {
+    background: var(--darkmain--99);
+    z-index: 999999999;
+}
+
+.wallet-modal .modal-header,
+.wallet-modal .modal-body {
+    background-color: var(--bgdark-ee);
+}
+
+.wallet-modal .modal-header {
+    border-bottom: 3px solid var(--primary-3);
+}
+
+.close-icon {
+    font-size: 32px;
+    line-height: 32px;
+    transition: all 0.7s ease;
+}
+
+.close-icon:hover {
+    color: var(--primary-3) !important;
+}
+
+.modal-close {
+    background: unset;
+    text-align: end;
+}
+
+
+/* ------------------------------------------------------- */
+/* Header */
+/* ------------------------------------------------------- */
+.header {
+    border-bottom: 2px solid var(--primary-1);
+    background: var(--bgdark);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+}
+
+.header .row {
+    align-items: center;
+}
+
+.cn-icon {
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: var(--light);
+    margin-right: 20px;
+}
+
+.cn-icon:hover {
+    color: var(--primary-3) !important;
+}
+
+.nav-menu {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 20px;
+    gap: 32px;
+}
+
+.nav-menu a {
+    color: var(--light);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.nav-menu li:hover,
+.nav-menu a.active {
+    color: var(--sec-2);
+}
+
+.soon {
+    position: absolute;
+    background: var(--bg-28);
+    color: var(--light);
+    padding: 6px 24px;
+}
+
+.header .dropdown-toggle::after {
+    display: none !important;
+}
+
+.disc-btn:active,
+.disc-btn:focus-visible {
+    background-color: var(--primary-1) !important;
+    color: var(--txt-light);
+}
+
+/* ul.dropdown-menu,
+ul.dropdown-menu li {
+    background-color: var(--bg-28) !important;
+} */
+
+.notif-box p {
+    color: var(--light);
+}
+
+.notif-box h6 {
+    justify-content: space-between;
+    cursor: pointer;
+}
+.notif-box h6 {
+    color: var(--sec-2);
+}
+
+.profile{
+    padding: 20px 20px;
+    background: #2a2a2a;
+    border-bottom: 2px solid var(--sec-2);
+}
+.wallet-dd,ul.dropdown-menu {
+    color: var(--light);
+    background: var(--bg-14) !important;
+    overflow: hidden;
+    width: 200px;
+}
+.wallet-dd li{
+    border-bottom: 1px solid var(--light-20);
+    cursor: pointer;
+}
+.wallet-dd li:last-child{
+    border-bottom: unset;
+}
+
+.wallet-dd li:hover{
+    background: var(--light-20);
+}
+
+.disconnect{
+    padding-right: 38px;
+}
+.arrow-icon{
+    font-size: 24px;
+    font-size: 24px;
+    line-height: unset;
+    position: absolute;
+    right: 8px;
+    bottom: 13px;
+}
+
+.light-theme .wallet-dd, .light-theme ul.dropdown-menu {
+    color: var(--light);
+    background: var(--dark) !important;
+    box-shadow: 0 0 20px 2px #ffffff20;
+}
+.light-theme .profile{
+    background: #ededed;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* Home */
+/* ------------------------------------------------------- */
+.banner {
+    padding: 180px 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner .row {
+    align-items: center;
+}
+
+.banner h1 {
+    font-size: 74px;
+    width: 80%;
+    line-height: 82px;
+    color: var(--primary-3);
+    font-weight: 600;
+}
+
+.banner p {
+    font-size: 16px;
+    width: 64%;
+}
+
+.swiper-cards .swiper-slide {
+    border: unset;
+    border-radius: 8px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bgdark);
+}
+
+/* How it works */
+.about {
+    padding: 100px 0px;
+}
+
+.work-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center !important;
+    padding: 100px 80px 50px 80px;
+    margin-top: 32px;
+    gap: 32px;
+}
+
+.work-row div:nth-child(1),
+.work-row div:nth-child(2) {
+    grid-column: 1;
+}
+
+.work-row div:nth-child(2) {
+    margin-top: 55px;
+}
+
+.work-row div:nth-child(3) {
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    top: 65%;
+}
+
+.work-row div:nth-child(4),
+.work-row div:nth-child(5) {
+    grid-column: 3;
+}
+
+.work-row div:nth-child(4) {
+    grid-row: 1;
+}
+
+.work-row div:nth-child(5) {
+    grid-row: 2;
+}
+
+.outer, .main {
+    transition: all 0.5s ease;
+}
+
+.outer {
+    background: var(--bglight-20);
+    padding: 0px 32px 0px 32px;
+    border-radius: 8px;
+    /* box-shadow: rgba(255, 255, 255, 0.2) 0rem 0.25rem 0.5rem -0.1rem, rgba(255, 255, 255, 0.1) 0rem 0.125rem 0.25rem -0.1rem; */
+
+}
+
+.main {
+    background: var(--bg-28);
+    padding: 24px;
+    height: 100%;
+    position: relative;
+    top: -50px;
+    border-top: 3px solid var(--sec-2);
+    border-radius: 8px;
+}
+
+.main h4 {
+    color: var(--sec-2);
+}
+
+.outer:last-child {
+    margin-top: 55px;
+}
+
+.outer:hover {
+    background: var(--sec-2);
+}
+
+.outer:hover .main p {
+    color: var(--light);
+}
+
+/* why choose us */
+.sub-heading {
+    color: var(--primary-3);
+}
+
+.wcs-cards {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 58px;
+    margin-top: 40px;
+}
+
+.card-outline {
+    border: 1px solid var(--sec-2);
+    transition: all .5s ease;
+    border-radius: 8px;
+}
+
+.wcs-card {
+    background: var(--bg-28);
+    color: var(--light);
+    padding: 24px;
+    transform: translate(22px, 22px);
+    transition: all .5s ease;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.wcs-card .sr-no {
+    color: var(--txt-light) !important;
+    transform: skewX(-32deg);
+    transition: all .5s ease;
+    background: var(--sec-2);
+    width: fit-content;
+    padding: 16px 22px;
+    margin-left: 24px;
+}
+.wcs-card img{
+    height: unset;
+    width: unset;
+}
+
+.wcs-card .sr-no h3 {
+    transform: skewX(32deg);
+    transition: all .5s ease;
+    font-size: 20px !important;
+}
+
+.wcs-card h4 {
+    font-size: 24px;
+}
+
+.wcs-card p {
+    width: 90%;
+}
+
+.card-outline .vec-active, .card-outline.active .vec-def{
+   display: none;
+}
+.card-outline.active .vec-active{
+   display: inline-block;
+}
+
+.card-outline:hover {
+    transform: translate(20px, 20px);
+}
+
+.wcs-card:hover {
+    transform: translate(-22px, -22px);
+}
+
+.wcs-card:hover .sr-no {
+    transform: skewX(32deg);
+}
+
+.wcs-card:hover .sr-no h3 {
+    transform: skewX(-32deg);
+}
+
+/* Faqs */
+.faqs {
+    /* padding-bottom: 130px; */
+    padding: 80px 0px 130px 0px;
+}
+
+.faqs .accordion {
+    padding: 64px;
+}
+
+.accordion-item {
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--dark);
+}
+
+.accordion-item:first-child {
+    margin-top: 0px !important;
+}
+
+.accordion-button {
+    background: var(--dark) !important;
+    color: var(--light);
+    border: unset;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 30px;
+}
+
+.accordion-button:focus,
+.accordion-button:focus-visible {
+    box-shadow: unset;
+    outline: unset;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--sec-2) !important;
+    box-shadow: unset;
+}
+
+.accordion-button::after {
+    filter: invert(1) grayscale(1);
+}
+
+.accordion-body {
+    /* background: var(--bg-14) !important; */
+    color: var(--light);
+    padding: 30px;
+    padding-top: 0px;
+    font-size: 16px;
+    font-weight: 300 !important;
+    line-height: 24px;
+}
+
+/* .accordion-collapse{
+    border-top: 2px solid var(--sec-2);
+} */
+
+
+
+
+/* ------------------------------------------------------- */
+/* Footer */
+/* ------------------------------------------------------- */
+.footer {
+    /* background: var(--bglight-15); */
+    padding: 90px 0px 40px 0px;
+    position: relative;
+}
+
+.footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer p,
+.footer h4 {
+    color: var(--txt-light);
+}
+
+.footer .popped {
+    /* background-color: var(--primary-1); */
+    padding: 60px 24px;
+    margin-top: -133px;
+    background: var(--dark);
+    box-shadow: 0 0 10px 0px var(--primary-1);
+    /* border: 1px dashed var(--primary-1); */
+}
+
+.ft-list,
+.social {
+    list-style: none;
+    padding-top: 32px !important;
+}
+
+.ft-list li {
+    font-size: 16px;
+    margin-top: 16px;
+    color: var(--txt-light);
+    cursor: pointer;
+}
+
+.ft-list a:first-child li {
+    margin-top: 0px;
+}
+
+.ft-list li:hover {
+    opacity: 0.6;
+}
+
+.sc-icon {
+    font-size: 42px;
+    border: 1px solid var(--txt-light);
+    border-radius: 100%;
+    padding: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    color: var(--txt-light);
+}
+
+.sc-icon:hover {
+    background-color: var(--txt-light);
+    color: var(--sec-2);
+}
+
+.ft-bottom p {
+    color: var(--light) !important;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* Inner pages */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------- */
+.inner-banner {
+    padding: 220px 0px 130px 0px;
+    background-image: url('/media/dark-texture.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: var(--txt-light);
+}
+
+.inner-banner::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background: var(--darkmain);
+    opacity: 0.2;
+}
+
+.inner-banner h2 {
+    position: relative;
+    z-index: 1;
+}
+
+/* Borrowpage */
+.borrow-tabs {
+    background: #181818;
+    padding-bottom: 140px;
+}
+
+.tab-btns {
+    width: 20%;
+    padding: 48px 16px;
+    background: var(--bg-tabs);
+
+}
+
+.tab-btn {
+    padding: 15px 18px;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--light);
+    margin-top: 16px;
+    border: unset;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+    text-align: left;
+    border-bottom: 1px solid var(--light-33);
+    text-decoration: none;
+}
+
+.tab-btn:hover {
+    background: var(--primary-1);
+    color: var(--btn-text-light);
+}
+
+.tab-btn.active,
+.tab-btn.active:hover {
+    background: var(--primary-3);
+    color: var(--btn-text-light);
+}
+
+.tab-btn:first-child {
+    margin-top: 0px;
+}
+
+.borrow-tabs .tab-content {
+    width: 80%;
+    padding: 48px 24px;
+    background: var(--bg-tabs);
+}
+
+.content-header {
+    justify-content: space-between;
+    align-items: center;
+    /* background: var(--bglight-10);
+    padding: 20px; */
+    border-radius: 4px;
+}
+.lendnft{
+    justify-content: end;
+}
+
+.content-header .collection {
+    position: relative;
+    width: fit-content;
+}
+
+.dropdown-btn button {
+    padding: 10px 50px 10px 18px;
+    background: var(--bglight-10);
+    border: unset;
+    color: var(--light);
+    width: max-content;
+}
+
+.coll-dropdown {
+    position: absolute;
+    background: var(--bg-28);
+    margin-top: 10px;
+    z-index: 9999;
+    width: -webkit-fill-available;
+}
+
+.coll-item {
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--light-20);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.coll-item:last-child {
+    border-bottom: unset;
+}
+
+.coll-item:hover {
+    background-color: var(--primary-1);
+}
+
+.dsp-layout {
+    background: var(--bglight-10);
+    padding: 6px 8px;
+    border-radius: 4px;
+}
+
+.dsp-layout .layout-icon {
+    font-size: 32px;
+    padding: 6px;
+    color: var(--light10);
+}
+
+.dsp-layout .layout-icon.active,
+.dsp-layout .layout-icon:hover {
+    background: var(--bglight-33);
+    color: var(--light);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.all-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    overflow: hidden;
+    background: var(--primary-1);
+    border: 1px solid var(--primary-2);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card .card-img-top {
+    object-fit: cover;
+}
+
+.card .card-body {
+    background-color: var(--bg-28);
+    border: unset;
+    color: var(--light-33);
+    padding: 0px;
+    font-size: 14px;
+    padding-bottom: 55px;
+}
+
+.card .card-title {
+    color: var(--light);
+    text-transform: capitalize;
+    padding: 12px 16px;
+    background: var(--bglight-10);
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.card-body .d-flex {
+    justify-content: space-between;
+    padding: 8px 16px;
+    color: var(--light-bb);
+}
+
+.card .description {
+    border-top: 1px solid var(--light-20);
+    color: var(--light-90);
+    padding: 16px;
+}
+.card-body h6, .card-body p{
+    color: var(--light-90);
+}
+.light-theme .card-body h6, .light-theme .card-body p{
+    color: var(--light-99);
+}
+
+
+
+
+/* .table thead{
+    border-top:1px solid var(--sec-2);
+} */
+.table tr {
+    border-bottom: 1px solid var(--light-20);
+}
+
+.table th {
+    background: var(--bg-28);
+    color: var(--light-bb);
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+.table td {
+    background: var(--bglight-01);
+    color: var(--light-bb);
+    padding: 10px 8px;
+    vertical-align: middle;
+}
+
+/* List nft modal */
+.list-modal .close-icon {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    color: var(--light) !important;
+}
+
+.modal-content.list-modal {
+    padding: 48px;
+    background: var(--bg-14);
+    z-index: 999999 !important;
+}
+
+.list-modal .col-lg-3 {
+    border: 1px solid var(--bglight-01);
+    border-radius: 8px;
+    padding: 16px !important;
+    background: var(--bglight-10);
+}
+
+.asset-socials .token-sc-icon {
+    color: var(--light-99);
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.asset-socials .token-sc-icon:hover {
+    color: var(--light) !important;
+}
+
+.asset-img {
+    border-radius: 8px;
+    object-fit: cover;
+    height: 100%;
+}
+
+.nft {
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    background: var(--bglight-10);
+}
+
+.asset-img {
+    width: 100%;
+}
+
+.nft-details h4 {
+    padding: 14px 0px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--light);
+    text-transform: capitalize;
+}
+
+.nft-details p {
+    padding-top: 10px;
+}
+
+.nft-details p:nth-of-type(1) {
+    padding-top: 14px;
+    border-top: 1px solid var(--light-33) !important;
+}
+
+.nft-details svg {
+    font-size: 23px;
+    background: var(--primary-2) !important;
+    padding: 4px;
+    margin-right: 8px;
+}
+
+.nft-details p.desc {
+    font-size: 14px;
+}
+
+.list-modal h3 {
+    padding: 13px;
+    background-image: linear-gradient(45deg, var(--bg-28), transparent);
+}
+
+.asset-form {
+    border: unset !important;
+    position: relative;
+}
+
+.asset-form input,
+.select-field button {
+    background: var(--primary-2) !important;
+    border: 1px solid var(--primary-3) !important;
+    color: var(--txt-light) !important;
+    padding: 10px !important;
+    border-radius: 4px !important;
+}
+
+.asset-form input,
+.form-group {
+    margin-top: 24px;
+}
+
+.form-group:first-child {
+    margin: 0px;
+}
+
+.asset-form input::placeholder,
+.asset-form select::placeholder {
+    color: var(--light-66);
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500 !important;
+}
+
+.asset-form input:focus,
+.asset-form input:focus-visible,
+.asset-form select:focus,
+.asset-form select:focus-visible {
+    color: var(--light);
+    outline: unset;
+    background-color: unset;
+    box-shadow: unset;
+}
+
+.select-dropdown {
+    width: -webkit-fill-available;
+    background: var(--bg-28);
+}
+
+.dd-icon {
+    position: absolute;
+    right: 0px;
+}
+
+.notice {
+    color: var(--light-66);
+}
+
+.notice strong {
+    color: var(--sec-2);
+}
+
+.coll-btn .dd-icon {
+    right: 16px;
+    margin-top: 4px;
+}
+
+.loans-title {
+    background-image: linear-gradient(45deg, var(--bgdark), transparent);
+    padding: 14px;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+/* Faucet/Mint nft Page */
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+.card.mint,
+.card.faucet {
+    box-shadow: 0px 0px 20px 2px #00000020;
+    background: #00000080;
+    padding: 32px;
+    color: var(--light);
+}
+
+.faucet h3,
+.mint h3 {
+    font-size: 32px;
+}
+
+.faucet p {
+    width: 80%;
+    margin: auto;
+}
+
+.select-coin {
+    background: #282828;
+    border: unset;
+    padding: 16px 24px;
+    color: var(--light);
+    cursor: pointer;
+}
+
+.select-coin:focus,
+.select-coin:focus-visible {
+    outline: unset;
+    box-shadow: unset;
+}
+
+.inner-banner label {
+    color: var(--light);
+}
+
+.mint-form input,
+.mint-form input:focus,
+.mint-form input:focus-visible {
+    background: #282828;
+    padding: 16px 24px;
+    color: var(--light) !important;
+    border: unset;
+    outline: unset;
+    box-shadow: unset;
+    cursor: pointer;
+}
+
+.mint-form input::placeholder {
+    color: var(--light-66) !important;
+}

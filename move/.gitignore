@@ -1,0 +1,5 @@
+testnet/
+config.yaml
+/.aptos
+/build
+.DS_Store
