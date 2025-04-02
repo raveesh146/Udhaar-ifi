@@ -5,6 +5,7 @@
 ### Demo link ->  https://www.youtube.com/watch?v=mDDjhZH5Cls
 ---
 
+<img src="./flow.png" alt="Alt Text" width="800" height="500">
 
 ## 📦 Contract Development Workflow
 
@@ -50,7 +51,7 @@ npm run dee
 ```
 
 ### Now you can interact with your smart contract and start lending NFTs as collateral! 🚀
-<img src="flow.png" alt="Alt Text" width="800" height="500">
+
 
 
 
