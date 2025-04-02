@@ -5,7 +5,7 @@
 ### Demo link ->  https://www.youtube.com/watch?v=mDDjhZH5Cls
 ---
 
-<img src="./flow.png" alt="Alt Text" width="800" height="500">
+<img src="./flow1.png" alt="Flow" width="800" height="500">
 
 ## 📦 Contract Development Workflow
 
